@@ -1,0 +1,88 @@
+
+	funcao inicio()
+	{
+		inteiro c =0
+		inteiro n =0
+		real E = 0.0
+		real salario = 10.0
+		real salariototal = 0.0
+
+		escreva("digite o valor do codigo do funcionario")
+		leia(c)
+		escreva("digite o numero de horas trabalhadas pelo funcionario")
+		leia(n)
+
+		
+			se (n >50){
+				E =( n - 50.0 ) * 20
+				salario = 50 *10
+				salariototal = salario + E
+				escreva("\nsalario excedente:  ", E )
+				escreva("\nsalario total:" , salariototal)
+				
+			}
+		senao se (n <50){
+			salario = n * 10
+			escreva("\nsalario excedente :" , E)
+			escreva("\nsalario total :" ,salario)
+			
+		}
+#############################################################################
+{
+		inteiro n1
+		escreva("digite o número inteiro")
+		leia(n1)
+		se (n1 % 2==0){
+			escreva(" o numero" , n1, " é par")
+		}
+		senao {
+			escreva("o numero" , n1, " é impar")
+		}	
+			se (n1>0){
+				
+			escreva("/no número", n1, " positivo")
+			}	
+		senao se (n1 > 0){
+
+				escreva(" o numero", n1, " negativo")
+		}	
+				senao {
+					escreva("/nnão é positivo ne negativo")
+				}
+			}
+
+	#####################################################################################
+
+		inteiro idade
+		escreva(" qual sua idade?")
+		leia(idade)
+		se (idade>=5 e idade <=7 ) 
+		{
+			escreva("\na sua categoria é infantil a ")
+			
+		}
+		
+		senao se (idade>=8 e idade <=11)
+		
+	 	{
+	 		escreva("\n a sua categoria é infantil b")
+	 			
+	 	}
+		 senao se (idade>=12 e idade<=13) 
+
+		 {
+		 	escreva("\n a sua categoria é juvenil a")
+		 	
+		 }
+		        senao se (idade>=14 e idade <=17)
+
+		    {
+		    	escreva("\n a sua categoria é juvenil ")
+		    	
+		    }
+		      senao se (idade>=18)
+		      {
+		      	escreva("\n sua categoria é adulto")
+		      }
+		     
+#############################################################
